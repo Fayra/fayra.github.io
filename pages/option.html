@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="/dist/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+
+<script src="/dist/bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
+
+<div class="container mt-5">
+    <form action="registrardatos.php" method="post">
+
+        Ingrese su nombre:
+        <input type="text" name="nombre" size="20">
+        <br> Seleccione una fruta o verdura:
+        <br>
+        <select name="articulo">
+        <optgroup label="Frutas">
+        <option value="1">Naranjas</option>
+        <option value="2">Manzanas</option>
+        <option value="3">Vurazno</option>
+        <option value="4">Mango</option>
+        </optgroup>
+        
+        <optgroup label="Verduras">
+        <option value="1">Lechuga</option>
+        <option value="2">Acelga</option>
+        <option value="3">Papas</option>
+        <option value="4">Calabaza</option>
+        
+        </optgroup>
+        
+        </select>
+        <br>
+        <input type="submit" value="Enviar">
+
+    </form>
+    <hr>
+
+</div>

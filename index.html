@@ -5,29 +5,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Proyecto</title>
+
+    <title>Portafolio FAYRA</title>
+
+    <link rel="stylesheet" href="dist/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+
+    <script src="dist/bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
+    <script src="dist/bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body id="page-top">
     <header>
-        <nav>
-            <ul>
-                <a href="pages/home.html">Inicio</a>
-
-                <a href="pages/p1.html">Pagina 1</a>
-
-                <a href="pages/p2.html">Pagina 2</a>
-
-                <a href="pages/p3.html">Pagina 3</a>
-
-                <a href="pages/p4.html">Pagina 4</a>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Mi Portafolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="/pages/home.html" target="PrincipalFrame">Home</a>
+                        <a class="nav-link" href="/pages/about.html" target="PrincipalFrame">Acerca de</a>
+                        <a class="nav-link" href="/pages/experience.html" target="PrincipalFrame">Mi experiencia</a>
+                        <a class="nav-link" href="/pages/work.html" target="PrincipalFrame">Portafolio</a>
+                        <a class="nav-link" href="/pages/contact.html" target="PrincipalFrame">Contacto</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
+
     <main>
-        <iframe src="pages/home.html" frameborder="0" name="ifmain"></iframe>
+        <iframe src="/pages/home.html" class="PrincipalFrame" frameborder="0" name="PrincipalFrame"></iframe>
     </main>
-    <footer>&copy; 2022 | Fayra Bits</footer>
+
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Location-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Locacion</h4>
+                    <p class="lead mb-0">
+                        Mexico
+                        <br /> Monterrey, Nuevo Leon
+                    </p>
+                </div>
+                <!-- Footer Social Icons-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Redes Sociales</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/fayrabits"><i class="fab fa-fw fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/fayrabits"><i class="fab fa-fw fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/fayrabits/"><i class="fab fa-fw fa-instagram"></i></a>
+
+                </div>
+                <!-- Footer About Text-->
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4">Sobre la pagina</h4>
+                    <p class="lead mb-0">
+                        La pagina esta realizada con ayuda de Bootstrap
+                        <a href="https://getbootstrap.com">Bootstrap</a> .
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-black">
+        <div class="container"><small> &copy; 2022 | Fabiola Yaritzi Ramirez Sanchez</small></div>
+    </div>
+
 </body>
 
 </html>

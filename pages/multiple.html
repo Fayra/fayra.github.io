@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="/dist/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+
+<script src="/dist/bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
+
+<div class="container mt-5">
+    <form action="registrardatos.php" method="post">
+
+        Ingrese su nombre:
+        <input type="text" name="nombre" size="20">
+        <br> Seleccione uno o varios colores (Presione Ctrl para seleccionar varios colores)
+        <br>
+        <select name="colores[]" size="4" multiple>
+        <option value="1">Rojo</option>
+        <option value="2">Verde</option>
+        <option value="3">Morado</option>
+        <option value="4">Amarillo</option>
+        <option value="5">Blanco</option>
+        <option value="7">Negro</option>
+        <option value="8">Naranja</option>
+        </select>
+        <br>
+        <input type="submit" value="Enviar">
+
+    </form>
+    <hr>
+
+</div>
