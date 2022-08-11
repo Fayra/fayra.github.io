@@ -19,9 +19,9 @@ Las paginas contiene etiquetas como:
 Contiene un menu de navegacion con 5 enlaces internos * y 3 enlaces externos (Twitter, Facebook, Instagram)
 
 (Index)
--Cabecera
--Pie de pagina
--Navegacion
--Principal
--iframe
+- Cabecera
+- Pie de pagina
+- Navegacion
+- Principal
+- iframe
 
