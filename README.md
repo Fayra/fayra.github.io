@@ -10,9 +10,9 @@ Coniente 5 paginas que muestran lo siguiente:
 - Pagina Contacto
 
 Las paginas contiene etiquetas como:
--Listas
--columnas
--Divisiones
+- Listas
+- columnas
+- Divisiones
 
 Contiene un menu de navegacion con 5 enlaces internos, cada imagen que se encuentra en portafolio contienen cada uno un modal y 4 enlaces externos (Twitter, Facebook, Instagram y Bootstrap)
 
